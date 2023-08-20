@@ -6,7 +6,7 @@ export default function Home() {
     <>
       <Header />
       <section className="container">
-        <TypographyH1>Hola mas</TypographyH1>
+        <TypographyH1>HolSFSa mas</TypographyH1>
       </section>
     </>
   );
