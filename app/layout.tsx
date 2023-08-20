@@ -16,6 +16,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
+      <head>
+        <link
+          href="https://fonts.cdnfonts.com/css/buran-ussr?styles=115558"
+          rel="stylesheet"
+        />
+      </head>
       <body className={quantico.className}>{children}</body>
     </html>
   );
