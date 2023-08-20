@@ -1,5 +1,5 @@
-import { TypographyH1 } from "@/components/Typography/TypographyH1";
-import { Header } from "@/components/Header";
+import { TypographyH1 } from "@/components/shared";
+import { Header } from "@/components/shared";
 
 export default function Home() {
   return (
