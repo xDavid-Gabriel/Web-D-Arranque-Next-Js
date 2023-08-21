@@ -12,7 +12,7 @@ import { useState } from "react";
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-    <header className="container flex justify-between pt-[41px] text-white sticky top-0">
+    <header className="container flex justify-between pt-[41px] text-white sticky top-0 z-10">
       <a href="#">
         <img
           src="/img/logo.png"
@@ -21,11 +21,11 @@ export const Header = () => {
         />
       </a>
       <div
-        className={`fixed top-0 h-screen w-full left-0 transition duration-300 lg:[position:initial] lg:h-[auto] lg:contents ${
+        className={`fixed z-10 top-0 h-screen w-full left-0 transition duration-300 lg:[position:initial] lg:h-[auto] lg:contents ${
           isMenuOpen ? "translate-x-[0]" : "translate-x-[-100%]"
         }`}
       >
-        <ul className="bg-charcoal-black min-h-screen flex flex-col gap-[35px] justify-center  lg:flex lg:gap-[65px] lg:min-h-[initial] items-center lg:flex-row lg:bg-none">
+        <ul className="bg-charcoal-black min-h-screen flex flex-col gap-[35px] justify-center  lg:flex lg:gap-[65px] lg:min-h-[initial] items-center lg:flex-row lg:bg-transparent">
           <li>
             <a
               href="#"
@@ -60,7 +60,7 @@ export const Header = () => {
             </Button>
           </li>
         </ul>
-        <div className="fixed bottom-[36px] left-1/2 -translate-x-1/2 flex gap-[10px]">
+        <div className="fixed bottom-[36px] left-1/2 -translate-x-1/2 flex gap-[10px] lg:left-[50px] lg:top-[400px]  lg:flex-col lg:translate-x-[0]">
           <a
             href="https://www.facebook.com/Darranque"
             className="w-[32px]  h-[32px] rounded-full border-white border-[2px]  grid place-content-center hover:bg-white hover:text-primary transition duration-300"

@@ -4,7 +4,7 @@ import { cva, type VariantProps } from "class-variance-authority";
 
 import { cn } from "@/lib/utils";
 
-const buttonVariants = cva("rounded-[8px] transition duration-300", {
+const buttonVariants = cva("rounded-[8px] transition duration-300 text-white", {
   variants: {
     variant: {
       default:

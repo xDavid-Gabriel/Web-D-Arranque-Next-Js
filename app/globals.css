@@ -3,5 +3,8 @@
 @tailwind utilities;
 
 body {
-  @apply bg-charcoal-black font-light;
+  @apply bg-charcoal-black font-light text-white;
+}
+img {
+  @apply w-full h-full object-cover;
 }
