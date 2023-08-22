@@ -235,7 +235,8 @@ export default function Home() {
       >
         <div className="text-center container text-white flex flex-col gap-[30px] items-center">
           <TypographyH2 className="text-center">
-            ¿A QU<LetterTilde>E</LetterTilde> MOTERO VAMOS A AYUDAR?
+            <span className="inline-block rotate-[180deg]">?</span>A QU
+            <LetterTilde>E</LetterTilde> MOTERO VAMOS A AYUDAR?
           </TypographyH2>
 
           <div className="max-w-[857px]">
@@ -337,7 +338,7 @@ export default function Home() {
             <FaWhatsapp />
           </a>
           <img
-            src="/img/manito.svg"
+            src="/img/manito.png"
             alt="Manito"
             className="w-[50px] lg:w-[100px]"
           />

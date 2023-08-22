@@ -51,7 +51,7 @@ export const Header = () => {
             isMenuOpen ? "translate-x-[0]" : "translate-x-[-100%]"
           }`}
         >
-          <ul className="bg-charcoal-black min-h-screen flex flex-col gap-[35px] justify-center  lg:flex lg:gap-[65px] lg:min-h-[initial] items-center lg:flex-row lg:bg-transparent">
+          <ul className="bg-charcoal-black min-h-screen flex flex-col gap-[35px] justify-center  lg:flex lg:gap-[30px] xl:gap-[65px] lg:min-h-[initial] items-center lg:flex-row lg:bg-transparent">
             <li>
               <a
                 href="#paso-a-seguir"
