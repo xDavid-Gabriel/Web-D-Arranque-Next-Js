@@ -12,7 +12,7 @@ import { useState } from "react";
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
-    <header className="container flex justify-between pt-[41px] text-white sticky top-0 z-10">
+    <header className="container flex justify-between pt-[41px] text-white sticky top-0 z-10 bg-white/80">
       <a href="#">
         <img
           src="/img/logo.png"
