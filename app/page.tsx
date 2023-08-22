@@ -53,10 +53,7 @@ export default function Home() {
         </div>
         <div className="w-[57%] z-[-1] absolute right-0 bottom-[-20px] bg-primary h-[148px] [clip-path:polygon(14%_0,100%_0,100%_100%,0%_100%)] lg:h-[238px] lg:w-[33%]"></div>
       </section>
-      <section
-        className="mt-[54px] lg:mt-[140px] relative"
-        id="a-que-motero-ayudaremos"
-      >
+      <section className="mt-[54px] lg:mt-[140px] relative">
         <div className="px-4">
           <TypographyH2 className=" text-center max-w-[291px] mx-auto lg:max-w-[672px]">
             GANA UNA KTM DUKE 200 Y JUNTOS AYUDEMOS A UN MOTERO
@@ -140,7 +137,8 @@ export default function Home() {
       </section>
       <section className="container mt-[30px] lg:mt-[120px]" id="paso-a-seguir">
         <TypographyH2 className="text-center">
-          ¿COMO PARTICIPAR EN ESTE GRAN SORTEO?
+          <span className="inline-block rotate-[180deg]">?</span>COMO PARTICIPAR
+          EN ESTE GRAN SORTEO?
         </TypographyH2>
         {/* <div className="grid [grid-template-columns:50px_1fr] gap-[20px] mt-[29px] lg:mt-[35px] items-center">
           <img
@@ -231,7 +229,10 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="bg-[url(/img/banner.png)] bg-cover bg-no-repeat py-[43px] lg:py-[93px] mt-[80px] lg:mt-[151px]">
+      <section
+        className="bg-[url(/img/banner.png)] bg-cover bg-no-repeat py-[43px] lg:py-[93px] mt-[80px] lg:mt-[151px]"
+        id="a-que-motero-ayudaremos"
+      >
         <div className="text-center container text-white flex flex-col gap-[30px] items-center">
           <TypographyH2 className="text-center">
             ¿A QU<LetterTilde>E</LetterTilde> MOTERO VAMOS A AYUDAR?
@@ -291,8 +292,8 @@ export default function Home() {
       <footer className="bg-primary py-[15px] lg:py-[40px]" id="contactanos">
         <div className="container flex flex-col gap-[30px] items-center">
           <TypographyH2 className="text-center">
-            No te pierdas los EN VIVO MI<LetterTilde>E</LetterTilde>RCOLES Y
-            DOMINGO 8 PM por IG y TIKTOK
+            No Te Pierdas Los En Vivo Mi<LetterTilde>e</LetterTilde>rcoles Y
+            Domingo 8 Pm Por Ig y Tiktok
           </TypographyH2>
           <div className="flex gap-[10px] justify-center flex-wrap">
             <a
@@ -325,7 +326,8 @@ export default function Home() {
             </a>
           </div>
           <strong className="font-display text-[20px] lg:text-[30px]">
-            <LetterTilde>U</LetterTilde>nete a nuestro grupo de whatsapp
+            <LetterTilde className="sm:w-[10px] lg:w-[15px]">U</LetterTilde>nete
+            a nuestro grupo de whatsapp
           </strong>
           <a
             href="https://chat.whatsapp.com/HBcBVEVAtthKpbiKpN3hpX"

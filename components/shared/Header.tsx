@@ -54,6 +54,17 @@ export const Header = () => {
           <ul className="bg-charcoal-black min-h-screen flex flex-col gap-[35px] justify-center  lg:flex lg:gap-[65px] lg:min-h-[initial] items-center lg:flex-row lg:bg-transparent">
             <li>
               <a
+                href="#paso-a-seguir"
+                className={`hover:text-primary transition duration-300 ${
+                  navigation === "paso-a-seguir" && "text-primary"
+                }`}
+                onClick={() => setIsMenuOpen((prevState) => !prevState)}
+              >
+                Còmo participar
+              </a>
+            </li>
+            <li>
+              <a
                 href="#a-que-motero-ayudaremos"
                 className={`hover:text-primary transition duration-300 ${
                   navigation === "a-que-motero-ayudaremos" && "text-primary"
@@ -63,17 +74,7 @@ export const Header = () => {
                 ¿A qué motero ayudaremos?
               </a>
             </li>
-            <li>
-              <a
-                href="#paso-a-seguir"
-                className={`hover:text-primary transition duration-300 ${
-                  navigation === "paso-a-seguir" && "text-primary"
-                }`}
-                onClick={() => setIsMenuOpen((prevState) => !prevState)}
-              >
-                pasos a seguir
-              </a>
-            </li>
+
             <li>
               <a
                 href="#quienes-somos"
@@ -82,7 +83,7 @@ export const Header = () => {
                 }`}
                 onClick={() => setIsMenuOpen((prevState) => !prevState)}
               >
-                ¿Quiénes somos?
+                Conoce màs de D'arranque
               </a>
             </li>
             <li>
