@@ -38,7 +38,7 @@ export const Header = () => {
   }, []);
   return (
     <header className="bg-charcoal-black/80 [backdrop-filter:30px] sticky top-0 z-10 pb-5">
-      <div className="container flex justify-between pt-[41px] text-white  ">
+      <div className="container flex justify-between pt-4 lg:pt-[41px] text-white  ">
         <a href="#">
           <img
             src="/img/logo.png"

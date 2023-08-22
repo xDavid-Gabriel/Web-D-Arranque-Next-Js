@@ -22,7 +22,7 @@ export default function Home() {
       <Header />
       {/* Hero */}
       <section className="relative z-[-1]">
-        <div className="container grid items-center gap-10 lg:grid-cols-2 2xl:[grid-template-columns:536px_1fr] ">
+        <div className="container grid items-center lg:gap-10 lg:grid-cols-2 2xl:[grid-template-columns:536px_1fr] ">
           <div className="mt-[19px] flex flex-col gap-[7px] w-fit mx-auto lg:mx-0 lg:w-full lg:mt-[80px] 2xl:mt-[19px] lg:relative lg:left-[100px]">
             <span
               className={`${black_ops_one.className} text-white sm:text-[20px] max-w-[306px]`}
@@ -297,8 +297,8 @@ export default function Home() {
       <footer className="bg-primary py-[15px] lg:py-[40px]" id="contactanos">
         <div className="container flex flex-col gap-[30px] items-center">
           <TypographyH2 className="text-center">
-            No Te Pierdas Los En Vivo Mi<LetterTilde>e</LetterTilde>rcoles Y
-            Domingo 8 Pm Por Ig y Tiktok
+            No Te Pierdas Los En Vivo Todos los Mi<LetterTilde>e</LetterTilde>
+            rcoles Y Domingo 8 Pm Por Instagram y Tiktok
           </TypographyH2>
           <div className="flex gap-[10px] justify-center flex-wrap">
             <a
