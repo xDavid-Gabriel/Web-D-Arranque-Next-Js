@@ -297,8 +297,8 @@ export default function Home() {
       <footer className="bg-primary py-[15px] lg:py-[40px]" id="contactanos">
         <div className="container flex flex-col gap-[30px] items-center">
           <TypographyH2 className="text-center">
-            No Te Pierdas Los En Vivo Todos los Mi<LetterTilde>e</LetterTilde>
-            rcoles Y Domingo 8 Pm Por Instagram y Tiktok
+            No te pierdas los en vivo todos los mi<LetterTilde>e</LetterTilde>
+            rcoles y domingo 8 pm por Instagram y Tiktok
           </TypographyH2>
           <div className="flex gap-[10px] justify-center flex-wrap">
             <a
