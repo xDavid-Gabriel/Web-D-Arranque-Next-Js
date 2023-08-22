@@ -83,7 +83,7 @@ export const Header = () => {
                 }`}
                 onClick={() => setIsMenuOpen((prevState) => !prevState)}
               >
-                Conoce màs de D'arranque
+                Conoce màs de D{"'"}arranque
               </a>
             </li>
             <li>
