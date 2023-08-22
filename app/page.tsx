@@ -29,8 +29,12 @@ export default function Home() {
             >
               ¡Participa, gana y ayuda a un motero!
             </span>
-
-            <TypographyH1 className="text-white">
+            <img
+              className="max-w-[163px] sm:max-w-[203.97px] lg:max-w-[426px]"
+              src="/img/hero-title.png"
+              alt="DALE LA MANO A UN MOTERO"
+            />
+            <TypographyH1 className="text-white hidden">
               <strong className="block">DALE LA</strong>
               <strong className="text-[45px] sm:text-[55px] lg:text-[120px]">
                 MANO
@@ -65,14 +69,14 @@ export default function Home() {
           </p>
         </div>
         <div className="bg-primary mt-[250px]  pt-[140px] pb-[40px] relative z-[-1] xl:mt-[410px] xl:pt-[250px]">
-          <div className="max-w-[310px] w-full top-0 z-10 translate-y-[-60%] left-1/2 -translate-x-1/2 absolute xl:max-w-[518px]">
+          <div className="!max-w-[310px] w-full top-0 z-10 translate-y-[-60%] left-1/2 -translate-x-1/2 absolute xl:max-w-[518px]">
             <img
-              className=" object-contain  h-fit "
+              className="object-contain"
               src="/img/premio.png"
               alt="KTM DUKE 200"
             />
             <img
-              className="w-[100px] hidden  absolute object-contain top-[200px] left-[-150px] h-fit xl:block"
+              className="w-[100px] hidden absolute object-contain top-[200px] left-[-150px] h-fit xl:block"
               src="/img/arrow.svg"
               alt="Flecha"
             />
