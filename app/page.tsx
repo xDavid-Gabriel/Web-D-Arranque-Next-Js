@@ -257,7 +257,7 @@ export default function Home() {
         </div>
       </section>
       <section
-        className="container py-[17px] grid lg:[grid-template-columns:1fr_425px] xl:[grid-template-columns:1fr_525px] items-center gap-[40px] xl:gap-[158px] text-center lg:text-start"
+        className="container py-[25px] grid lg:[grid-template-columns:1fr_425px] xl:[grid-template-columns:1fr_525px] items-center gap-[40px] xl:gap-[158px] text-center lg:text-start"
         id="quienes-somos"
       >
         <div className="flex flex-col gap-[20px] lg:gap-[26px]">
