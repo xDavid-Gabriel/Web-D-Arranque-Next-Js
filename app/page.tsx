@@ -2,6 +2,13 @@ import { TypographyH1, TypographyH2, TypographyH3 } from "@/components/shared";
 import { Header } from "@/components/shared";
 import { Button } from "@/components/ui/button";
 import { Black_Ops_One } from "next/font/google";
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaTiktok,
+  FaWhatsapp,
+  FaYoutube,
+} from "react-icons/fa";
 const black_ops_one = Black_Ops_One({ weight: ["400"], subsets: ["latin"] });
 
 export default function Home() {
@@ -31,7 +38,7 @@ export default function Home() {
             <span className="font-display text-white text-[20px] sm:text-[30px] lg:text-[50px]">
               BY @DARRANQUE
             </span>
-            <Button className="w-fit">ver premio</Button>
+            {/* <Button className="w-fit z-20">ver premio</Button> */}
           </div>
           <img
             className="max-w-[400px] mx-auto object-contain xl:object-cover xl:max-w-[604px] 2xl:max-w-[initial]"
@@ -41,7 +48,10 @@ export default function Home() {
         </div>
         <div className="w-[57%] z-[-1] absolute right-0 bottom-[-20px] bg-primary h-[148px] [clip-path:polygon(14%_0,100%_0,100%_100%,0%_100%)] lg:h-[238px] lg:w-[33%]"></div>
       </section>
-      <section className="mt-[54px] lg:mt-[140px] relative">
+      <section
+        className="mt-[54px] lg:mt-[140px] relative"
+        id="a-que-motero-ayudaremos"
+      >
         <div className="px-4">
           <TypographyH2 className=" text-center max-w-[291px] mx-auto lg:max-w-[672px]">
             GANA UNA KTM DUKE 200 Y JUNTOS AYUDEMOS A UN MOTERO
@@ -123,7 +133,7 @@ export default function Home() {
           <div className="[clip-path:polygon(0_0,100%_0,100%_0,0_30%)] h-[330px] bg-charcoal-black w-full absolute top-0"></div>
         </div>
       </section>
-      <section className="container mt-[30px] lg:mt-[120px]">
+      <section className="container mt-[30px] lg:mt-[120px]" id="paso-a-seguir">
         <TypographyH2 className="text-center">
           ¿COMO PARTICIPAR EN ESTE GRAN SORTEO?
         </TypographyH2>
@@ -216,6 +226,114 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <section className="bg-[url(/img/banner.png)] bg-cover bg-no-repeat py-[43px] lg:py-[93px] mt-[80px] lg:mt-[151px]">
+        <div className="text-center container text-white flex flex-col gap-[30px] items-center">
+          <TypographyH2 className="text-center">
+            ¿COMO PARTICIPAR EN ESTE GRAN SORTEO?
+          </TypographyH2>
+          <div className="max-w-[857px]">
+            <p>
+              Envía un correo nominando a la persona que crees que REALMENTE
+              NECESITA ESTE APOYO, cuéntanos su situación y envía toda la
+              información del caso (documentos, otros o videos en caso sea
+              necesario), esto nos servirá para hacer la selección adecuada de
+              quien recibirá esta ayuda solidaria de parte de TODOS NOSOTROS.
+            </p>
+            <p className="mt-[10px]">
+              DEMOSTREMOS que en esta COMUNIDAD REALMENTE HAY UNIÓN y HERMANDAD.
+            </p>
+          </div>
+          <a href="mailto:daleunamanoaunmotero@gmail.com">
+            <Button className="w-fit break-all">
+              daleunamanoaunmotero@gmail.com
+            </Button>
+          </a>
+        </div>
+      </section>
+      <section
+        className="container py-[17px] grid lg:[grid-template-columns:1fr_425px] items-center gap-[40px] xl:gap-[158px] text-center lg:text-start"
+        id="quienes-somos"
+      >
+        <div className="flex flex-col gap-[20px] lg:gap-[26px]">
+          <TypographyH2 className="text-center lg:text-start">
+            ¿COMO PARTICIPAR EN ESTE GRAN SORTEO?
+          </TypographyH2>
+          <img
+            src="/img/sobre-mi.png"
+            alt="Sergio Salazar Palomino"
+            className="max-w-[400px] mx-auto lg:hidden"
+          />
+          <p>
+            Mi nombre es Sergio Salazar Palomino, soy motero desde hace 6 años y
+            hago contenido sobre motos desde hace 4 años y medio
+            aproximadamente. Pueden encontrar todo mi contenido en Instagram,
+            Youtube y TikTok. En estos 4 años y medio he podido trabajar con
+            casi todas las marcas de motos del mercado peruano y ahora intento
+            llevar acabo esta iniciativa para entre todos poder hacer algo
+            único, darle la mano a un motero que lo necesite, y tal vez más
+            adelante poder ayudar a muchos más. Muchas gracias por leer esto y
+            si estás participando en este gran evento digital, el doble de
+            gracias y toda la suerte del mundo, ¡Nos vemos en las pistas!
+          </p>
+        </div>
+        <img
+          src="/img/sobre-mi.png"
+          alt="Sergio Salazar Palomino"
+          className="hidden lg:block"
+        />
+      </section>
+      <footer className="bg-primary py-[15px] lg:py-[40px]" id="contactanos">
+        <div className="container flex flex-col gap-[30px] items-center">
+          <TypographyH2 className="text-center">
+            No te pierdas los EN VIVO MIÉRCOLES Y DOMINGO 8 PM por IG y TIKTOK
+          </TypographyH2>
+          <div className="flex gap-[10px] justify-center flex-wrap">
+            <a
+              href="https://www.facebook.com/Darranque"
+              className="w-[32px]  h-[32px] rounded-full border-white border-[2px]  grid place-content-center hover:bg-white hover:text-primary transition duration-300 lg:w-[42px] lg:text-2xl lg:h-[42px]"
+              target="_blank"
+            >
+              <FaFacebookF />
+            </a>
+            <a
+              href="https://www.instagram.com/darranque"
+              className="w-[32px]  h-[32px] rounded-full border-white border-[2px]  grid place-content-center hover:bg-white hover:text-primary transition duration-300 lg:w-[42px] lg:text-2xl lg:h-[42px]"
+              target="_blank"
+            >
+              <FaInstagram />
+            </a>
+            <a
+              href="https://www.youtube.com/@DarranqueRevoluciona"
+              target="_blank"
+              className="w-[32px]  h-[32px] rounded-full border-white border-[2px]  grid place-content-center hover:bg-white hover:text-primary transition duration-300 lg:w-[42px] lg:text-2xl lg:h-[42px]"
+            >
+              <FaYoutube />
+            </a>
+            <a
+              href="https://www.tiktok.com/@darranque"
+              className="w-[32px]  h-[32px] rounded-full border-white border-[2px]  grid place-content-center hover:bg-white hover:text-primary transition duration-300 lg:w-[42px] lg:text-2xl lg:h-[42px]"
+              target="_blank"
+            >
+              <FaTiktok />
+            </a>
+          </div>
+          <strong className="font-display text-[30px]">
+            Únete a nuestro grupo de whatsapp
+          </strong>
+          <a
+            href="https://chat.whatsapp.com/HBcBVEVAtthKpbiKpN3hpX"
+            className="w-[32px]  h-[32px] rounded-full border-white border-[2px]  grid place-content-center hover:bg-white hover:text-primary transition duration-300 lg:w-[42px] lg:text-2xl lg:h-[42px]"
+            target="_blank"
+          >
+            <FaWhatsapp />
+          </a>
+          <img
+            src="/img/manito.svg"
+            alt="Manito"
+            className="w-[50px] lg:w-[100px]"
+          />
+        </div>
+      </footer>
     </>
   );
 }

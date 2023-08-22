@@ -16,7 +16,7 @@ export const Header = () => {
       <a href="#">
         <img
           src="/img/logo.png"
-          className="w-[115px] lg:w-[133px]"
+          className="w-[115px] lg:w-[133px] object-contain"
           alt="Logo"
         />
       </a>
@@ -28,7 +28,7 @@ export const Header = () => {
         <ul className="bg-charcoal-black min-h-screen flex flex-col gap-[35px] justify-center  lg:flex lg:gap-[65px] lg:min-h-[initial] items-center lg:flex-row lg:bg-transparent">
           <li>
             <a
-              href="#"
+              href="#a-que-motero-ayudaremos"
               className="hover:text-primary transition duration-300"
               onClick={() => setIsMenuOpen((prevState) => !prevState)}
             >
@@ -37,7 +37,7 @@ export const Header = () => {
           </li>
           <li>
             <a
-              href="#"
+              href="#paso-a-seguir"
               className="hover:text-primary transition duration-300"
               onClick={() => setIsMenuOpen((prevState) => !prevState)}
             >
@@ -46,7 +46,7 @@ export const Header = () => {
           </li>
           <li>
             <a
-              href="#"
+              href="#quienes-somos"
               className="hover:text-primary transition duration-300"
               onClick={() => setIsMenuOpen((prevState) => !prevState)}
             >
@@ -55,9 +55,11 @@ export const Header = () => {
           </li>
           <li>
             {/* CONTÁCTANOS */}
-            <Button onClick={() => setIsMenuOpen((prevState) => !prevState)}>
-              Contáctanos
-            </Button>
+            <a href="#contactanos">
+              <Button onClick={() => setIsMenuOpen((prevState) => !prevState)}>
+                Contáctanos
+              </Button>
+            </a>
           </li>
         </ul>
         <div className="fixed bottom-[36px] left-1/2 -translate-x-1/2 flex gap-[10px] lg:left-[50px] lg:top-[400px]  lg:flex-col lg:translate-x-[0]">

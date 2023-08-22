@@ -8,7 +8,7 @@ const buttonVariants = cva("rounded-[8px] transition duration-300 text-white", {
   variants: {
     variant: {
       default:
-        "bg-primary shadow-[0px_8px_60px_0px_rgba(220,73,58,0.50)] p-[16px_34px] hover:bg-primary/80",
+        "bg-primary shadow-[0px_8px_60px_0px_rgba(220,73,58,0.50)] p-[10px_32px] hover:bg-primary/80",
       destructive:
         "bg-red-500 text-slate-50 hover:bg-red-500/90 dark:bg-red-900 dark:text-slate-50 dark:hover:bg-red-900/90",
       outline:
@@ -20,10 +20,10 @@ const buttonVariants = cva("rounded-[8px] transition duration-300 text-white", {
       link: "text-slate-900 underline-offset-4 hover:underline dark:text-slate-50",
     },
     size: {
-      default: "h-10 px-4 py-2",
-      sm: "h-9 rounded-md px-3",
-      lg: "h-11 rounded-md px-8",
-      icon: "h-10 w-10",
+      default: "",
+      sm: "",
+      lg: "",
+      icon: "",
     },
   },
   defaultVariants: {
