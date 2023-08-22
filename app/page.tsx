@@ -1,4 +1,9 @@
-import { TypographyH1, TypographyH2, TypographyH3 } from "@/components/shared";
+import {
+  LetterTilde,
+  TypographyH1,
+  TypographyH2,
+  TypographyH3,
+} from "@/components/shared";
 import { Header } from "@/components/shared";
 import { Button } from "@/components/ui/button";
 import { Black_Ops_One } from "next/font/google";
@@ -63,7 +68,7 @@ export default function Home() {
           </p>
         </div>
         <div className="bg-primary mt-[250px]  pt-[140px] pb-[40px] relative z-[-1] xl:mt-[410px] xl:pt-[250px]">
-          <div className="max-w-[310px] top-0 z-10 translate-y-[-60%] left-1/2 -translate-x-1/2 absolute xl:max-w-[518px]">
+          <div className="max-w-[310px] w-full top-0 z-10 translate-y-[-60%] left-1/2 -translate-x-1/2 absolute xl:max-w-[518px]">
             <img
               className=" object-contain  h-fit "
               src="/img/premio.png"
@@ -229,8 +234,9 @@ export default function Home() {
       <section className="bg-[url(/img/banner.png)] bg-cover bg-no-repeat py-[43px] lg:py-[93px] mt-[80px] lg:mt-[151px]">
         <div className="text-center container text-white flex flex-col gap-[30px] items-center">
           <TypographyH2 className="text-center">
-            ¿COMO PARTICIPAR EN ESTE GRAN SORTEO?
+            ¿A QU<LetterTilde>E</LetterTilde> MOTERO VAMOS A AYUDAR?
           </TypographyH2>
+
           <div className="max-w-[857px]">
             <p>
               Envía un correo nominando a la persona que crees que REALMENTE
@@ -251,12 +257,12 @@ export default function Home() {
         </div>
       </section>
       <section
-        className="container py-[17px] grid lg:[grid-template-columns:1fr_425px] items-center gap-[40px] xl:gap-[158px] text-center lg:text-start"
+        className="container py-[17px] grid lg:[grid-template-columns:1fr_425px] xl:[grid-template-columns:1fr_525px] items-center gap-[40px] xl:gap-[158px] text-center lg:text-start"
         id="quienes-somos"
       >
         <div className="flex flex-col gap-[20px] lg:gap-[26px]">
           <TypographyH2 className="text-center lg:text-start">
-            ¿COMO PARTICIPAR EN ESTE GRAN SORTEO?
+            CONOCE M<LetterTilde>A</LetterTilde>S SOBRE DE DARRANQUE
           </TypographyH2>
           <img
             src="/img/sobre-mi.png"
@@ -285,7 +291,8 @@ export default function Home() {
       <footer className="bg-primary py-[15px] lg:py-[40px]" id="contactanos">
         <div className="container flex flex-col gap-[30px] items-center">
           <TypographyH2 className="text-center">
-            No te pierdas los EN VIVO MIÉRCOLES Y DOMINGO 8 PM por IG y TIKTOK
+            No te pierdas los EN VIVO MI<LetterTilde>E</LetterTilde>RCOLES Y
+            DOMINGO 8 PM por IG y TIKTOK
           </TypographyH2>
           <div className="flex gap-[10px] justify-center flex-wrap">
             <a
@@ -317,8 +324,8 @@ export default function Home() {
               <FaTiktok />
             </a>
           </div>
-          <strong className="font-display text-[30px]">
-            Únete a nuestro grupo de whatsapp
+          <strong className="font-display text-[20px] lg:text-[30px]">
+            <LetterTilde>U</LetterTilde>nete a nuestro grupo de whatsapp
           </strong>
           <a
             href="https://chat.whatsapp.com/HBcBVEVAtthKpbiKpN3hpX"

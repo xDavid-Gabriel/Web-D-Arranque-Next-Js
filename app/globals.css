@@ -1,7 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 105px;
+}
 body {
   @apply bg-charcoal-black font-light text-white;
 }
