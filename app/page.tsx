@@ -69,7 +69,7 @@ export default function Home() {
           </p>
         </div>
         <div className="bg-primary mt-[250px]  pt-[140px] pb-[40px] relative z-[-1] xl:mt-[410px] xl:pt-[250px]">
-          <div className="!max-w-[310px] w-full top-0 z-10 translate-y-[-60%] left-1/2 -translate-x-1/2 absolute xl:max-w-[518px]">
+          <div className="!max-w-[310px] w-full top-0 z-10 translate-y-[-60%] left-1/2 -translate-x-1/2 absolute xl:!max-w-[518px]">
             <img
               className="object-contain"
               src="/img/premio.png"
@@ -297,8 +297,8 @@ export default function Home() {
       <footer className="bg-primary py-[15px] lg:py-[40px]" id="contactanos">
         <div className="container flex flex-col gap-[30px] items-center">
           <TypographyH2 className="text-center">
-            No te pierdas los en vivo todos los mi<LetterTilde>e</LetterTilde>
-            rcoles y domingo 8 pm por Instagram y Tiktok
+            NO TE PIERDAS LOS EN VIVO TODOS LOS MI<LetterTilde>E</LetterTilde>
+            RCOLES Y DOMINGO A LAS 8 PM POR INSTAGRAM Y TIKTOK.
           </TypographyH2>
           <div className="flex gap-[10px] justify-center flex-wrap">
             <a
@@ -331,8 +331,8 @@ export default function Home() {
             </a>
           </div>
           <strong className="font-display text-[20px] lg:text-[30px]">
-            <LetterTilde className="sm:w-[10px] lg:w-[15px]">U</LetterTilde>nete
-            a nuestro grupo de whatsapp
+            <LetterTilde className="sm:w-[9px] lg:w-[14px]">U</LetterTilde>NETE
+            A NUESTRO GRUPO DE WHATSAPP
           </strong>
           <a
             href="https://chat.whatsapp.com/HBcBVEVAtthKpbiKpN3hpX"
