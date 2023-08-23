@@ -278,14 +278,13 @@ export default function Home() {
           <p>
             Mi nombre es Sergio Salazar Palomino, soy motero desde hace 6 años y
             hago contenido sobre motos desde hace 4 años y medio
-            aproximadamente. Pueden encontrar todo mi contenido en Instagram,
-            Youtube y TikTok. En estos 4 años y medio he podido trabajar con
-            casi todas las marcas de motos del mercado peruano y ahora intento
-            llevar acabo esta iniciativa para entre todos poder hacer algo
-            único, darle la mano a un motero que lo necesite, y tal vez más
-            adelante poder ayudar a muchos más. Muchas gracias por leer esto y
-            si estás participando en este gran evento digital, el doble de
-            gracias y toda la suerte del mundo, ¡Nos vemos en las pistas!
+            aproximadamente. En estos 4 años realicé diversos eventos y he
+            colaborado con diferentes marcas pero ahora intento llevar acabo
+            esta iniciativa para entre todos poder hacer algo único, darle la
+            mano a un motero que lo necesite y tal vez más adelante poder ayudar
+            a muchos más. Muchas gracias por ser parte de esto, estoy seguro que
+            juntos podemos generar una bola de nieve de ayuda motera. ¡Nos vemos
+            en las pistas!
           </p>
         </div>
         <img
