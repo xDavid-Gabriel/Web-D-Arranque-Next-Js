@@ -58,6 +58,20 @@ export default function Home() {
           </div>
           <div className="w-[57%] z-[-1] absolute right-0 bottom-[-20px] bg-primary h-[148px] [clip-path:polygon(14%_0,100%_0,100%_100%,0%_100%)] lg:h-[238px] lg:w-[33%]"></div>
         </section>
+        <section className="bg-primary py-[35px]">
+          <div className="container flex flex-col gap-[20px]">
+            <img
+              src="/img/manito.png"
+              alt="Manito"
+              className="max-w-[163px] lg:max-w-[270px] mx-auto"
+            />
+            <TypographyH2 className="max-w-[700px] text-center mx-auto">
+              EL 100% DE LA GANANCIA DE EST<LetterTilde>A</LetterTilde> RIFA SER
+              <LetterTilde>A</LetterTilde> PARA AYUDAR A UN MOTERO QUE REALMENTE
+              LO NECESITE
+            </TypographyH2>
+          </div>
+        </section>
         <section className="mt-[54px] lg:mt-[140px] relative">
           <div className="px-4">
             <TypographyH2 className=" text-center max-w-[291px] mx-auto lg:max-w-[672px]">
