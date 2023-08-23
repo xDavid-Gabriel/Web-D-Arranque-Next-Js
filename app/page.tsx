@@ -61,7 +61,7 @@ export default function Home() {
         <section className="mt-[54px] lg:mt-[140px] relative">
           <div className="px-4">
             <TypographyH2 className=" text-center max-w-[291px] mx-auto lg:max-w-[672px]">
-              GANA UNA KTM DUKE 200 Y JUNTOS AYUDEMOS A UN MOTERO
+              GANA UNA KTM DUKE 200 NG Y JUNTOS AYUDEMOS A UN MOTERO
             </TypographyH2>
             <p className="max-w-[332px] mt-[17px] mx-auto text-center xl:hidden">
               ¡Esta es tu oportunidad de GANAR una KTM! participa en nuestra
