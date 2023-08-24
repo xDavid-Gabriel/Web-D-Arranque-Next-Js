@@ -61,12 +61,12 @@ export default function Home() {
         <section className="bg-primary py-[35px]">
           <div className="container flex flex-col gap-[20px]">
             <img
-              src="/img/manito.png"
+              src="/img/manito.svg"
               alt="Manito"
               className="max-w-[163px] lg:max-w-[270px] mx-auto"
             />
             <TypographyH2 className="max-w-[700px] text-center mx-auto">
-              EL 100% DE LA GANANCIA DE EST<LetterTilde>A</LetterTilde> RIFA SER
+              EL 100% DE LA GANANCIA DE ESTA RIFA SER
               <LetterTilde>A</LetterTilde> PARA AYUDAR A UN MOTERO QUE REALMENTE
               LO NECESITE
             </TypographyH2>
