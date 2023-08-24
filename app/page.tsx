@@ -60,16 +60,16 @@ export default function Home() {
         </section>
         <section className="bg-primary py-[35px]">
           <div className="container flex flex-col gap-[20px]">
-            <img
-              src="/img/manito.svg"
-              alt="Manito"
-              className="max-w-[163px] lg:max-w-[270px] mx-auto"
-            />
             <TypographyH2 className="max-w-[700px] text-center mx-auto">
               EL 100% DE LA GANANCIA DE ESTA RIFA SER
               <LetterTilde>A</LetterTilde> PARA AYUDAR A UN MOTERO QUE REALMENTE
               LO NECESITE
             </TypographyH2>
+            <img
+              src="/img/manito.svg"
+              alt="Manito"
+              className="max-w-[163px] lg:max-w-[270px] mx-auto"
+            />
           </div>
         </section>
         <section className="mt-[54px] lg:mt-[140px] relative">
